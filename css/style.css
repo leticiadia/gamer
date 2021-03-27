@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 98.5vh;
+    background: linear-gradient(to right top, #B22222, #4682B4);
+}
+
+#container{
+    margin-top: -90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/* Card */
+
+.card{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 50px 350px;
+    border-radius: 10px;
+    margin-top: -15px;
+
+}
+
+/* Image */
+
+#logo-star-wars{
+    width: 90px;
+    height: 90px;
+    opacity: 0.6; 
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+.alura-logo {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+
+.page-logo {
+    width: 180px;
+    height: 38px;
+    margin-top: 15px;
+    margin-left: 558px;
+}
+
+#personagem {
+    width: 325px;
+    height: 325px;
+    opacity: 0.9;
+}
+
+#info{
+    color: black;
+}
+
+/* Button */
+button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4682B4;
+    margin-left: 80px;
+}
+
+button:hover{
+    background: #6495ED;
+}
+
+
+   
+#buttonStart{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
